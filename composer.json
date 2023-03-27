@@ -17,5 +17,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "laravel/passport": "^6.0"
+    }
 }
