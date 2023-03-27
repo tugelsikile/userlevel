@@ -11,6 +11,7 @@ class UserLevel extends ServiceProvider
     }
     public function register()
     {
+        
         $this->app->make("Tugelsikile\UserLevel\Controllers\UserLevelController");
     }
 }
