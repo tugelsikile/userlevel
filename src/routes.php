@@ -2,4 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/user-levels/{what}', "Tugelsikile\\UserLevel\\app\\Controllers\\UserLevelController@userLevel");
+
+Route::group(['prefix' => 'user-levels'], function () {
+    Route::any('/', "Tugelsikile\\UserLevel\\app\\Controllers\\UserLevelController@crud");
+    Route::get('/view');
+});
