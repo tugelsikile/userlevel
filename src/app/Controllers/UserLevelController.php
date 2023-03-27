@@ -1,6 +1,6 @@
 <?php
 
-namespace Tugelsikile\UserLevel\Controllers;
+namespace Tugelsikile\UserLevel\app\Controllers;
 
 use App\Http\Controllers\Controller;
 

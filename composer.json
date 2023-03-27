@@ -5,7 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Tugelsikile\\UserLevel\\": "src/"
+            "Tugelsikile\\UserLevel\\": "src/",
+            "Tugelsikile\\UserLevel\\Database\\Seeders\\": "src/databases/seeders/",
+            "Tugelsikile\\UserLevel\\Middleware\\": "src/app/Middleware/"
         }
     },
     "authors": [
