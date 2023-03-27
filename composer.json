@@ -1,0 +1,19 @@
+{
+    "name": "tugelsikile/user-level",
+    "description": "Custom user level privileges for laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tugelsikile\\UserLevel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dodi Suprayogi",
+            "email": "reyang19@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
