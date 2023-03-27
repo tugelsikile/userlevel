@@ -58,3 +58,4 @@ class UserLevelMiddleware extends Middleware
         }
     }
 }
+
