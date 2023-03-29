@@ -87,6 +87,7 @@ class UserLevelController extends Controller
                             'value' => $priv->id,
                             'label' => $menu->name,
                             'meta' => (object) [
+                                'icon' => $menu->icon,
                                 'route' => $menu->route,
                                 'url' => Route::has($menu->route) ? route($menu->route) : null,
                                 'can' => (object) [
@@ -123,6 +124,7 @@ class UserLevelController extends Controller
                             'value' => $priv->id,
                             'label' => $menu->name,
                             'meta' => (object) [
+                                'icon' => $menu->icon,
                                 'route' => $menu->route,
                                 'url' => Route::has($menu->route) ? route($menu->route) : null,
                                 'can' => (object) [
